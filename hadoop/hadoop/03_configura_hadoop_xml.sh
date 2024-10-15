@@ -109,7 +109,7 @@ fichero="hdfs-site.xml"
 
 asignar_propiedad "dfs.replication" "1" $fichero
 asignar_propiedad "dfs.namenode.name.dir" "/datos/namenode" $fichero
-asignar_propiedad "dfs.namenode.data.dir" "/datos/datanode" $fichero
+asignar_propiedad "dfs.datanode.data.dir" "/datos/datanode" $fichero
 
 xmlstarlet format --indent-spaces 2 ${CONF_TMP_DIR}/${fichero} >> temp.xml
 mv temp.xml ${CONF_TMP_DIR}/${fichero}
