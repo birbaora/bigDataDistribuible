@@ -12,3 +12,4 @@ rm -rf /tmp/salidaLibros
 mkdir /tmp/salidaLibros
 hdfs dfs -get /salidaLibros/* /tmp/salidaLibros
 
+cat /tmp/salidaLibros/*000*
