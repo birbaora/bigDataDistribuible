@@ -1,0 +1,7 @@
+juan,34
+perico,32
+andres,66
+fulano,43
+sotano,98
+vengano,51
+
