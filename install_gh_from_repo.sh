@@ -7,4 +7,4 @@
 	&& sudo apt install gh -y
 
 
-echo "ahora ejecuta git-credential-manager configure"
+echo "ahora ejecuta git-credential-manager configure o bien gh auth login"
