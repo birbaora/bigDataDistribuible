@@ -1,0 +1,4 @@
+en casa, portatil acer funcionando:
+
+origin	https://github.com/birbaora/bigDataDistribuible.git (fetch)
+origin	https://github.com/birbaora/bigDataDistribuible.git (push)
